@@ -30,6 +30,7 @@ const Home = ({ data }: RestaurantJsonResponse) => {
   return (
     <>
     <div className="Cards">
+      Restaurant: 
       {restaurants}
     </div>
     </>
