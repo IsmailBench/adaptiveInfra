@@ -1,8 +1,7 @@
 import axios from 'axios';
 import  RestaurantCard  from '../components/restaurantCard';
 import { GetStaticProps } from 'next';
-import { Restaurant, RestaurantJsonResponse } from '../models/Restaurant';
-
+import { Restaurant, RestaurantJsonResponse } from '../models/restaurant';
 
 export const getStaticProps: GetStaticProps = async () => {
   const response = await axios.get("http://localhost:1337/api/restaurants", {
