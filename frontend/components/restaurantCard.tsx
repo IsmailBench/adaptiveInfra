@@ -1,5 +1,5 @@
 import Card from "react-bootstrap/Card";
-import { Restaurant } from '../models/Restaurant';
+import { Restaurant } from '../models/restaurant';
 
 const RestaurantCard = ({ id, name, description, menu } :any) =>{
   return(
